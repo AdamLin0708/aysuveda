@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.css","test.scss"],"names":[],"mappings":"AAAA;ACAA;EACE,aAAY,EACb","file":"app.css","sourcesContent":[null,"test {\n  height:20px;\n}\n"]}

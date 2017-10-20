@@ -1,0 +1,85 @@
+/* bg-color */
+
+
+/* navbar */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+.modify-nav .navbar-brand {
+  height: 80px;
+}
+
+.modify-nav .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.modify-nav .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.modify-nav .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+
+/**** home ****/
+
+/* 輪播牆 */
+.home-carousel {
+  border: 1px solid black;
+  height: 400px;
+}
+
+/**** about ****/
+.img-responsive-center {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/**** footer ****/
+
+.page-container-responsive {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1100px) {
+  .page-container-responsive {
+    width: 1045px;
+  }
+}
+
+.footer__links {
+  margin-top: 15px;
+}
+
+.footer__links a.footer-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #727171 ;
+  font-size: 16px;
+}
+
+.footer__links a.footer-link:hover {
+  color: #232323 ;
+}
+
+.footer__links a.footer-link span.macho {
+  text-decoration: none;
+}
+
+a.footer-mail-link {
+  text-decoration: none;
+}
+
+
