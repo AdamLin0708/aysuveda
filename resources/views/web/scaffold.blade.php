@@ -11,7 +11,9 @@
 </head>
 <body>
     @include('web.partial._navbar')
-    @yield('content')
+    <div style="margin-top: 82px;">
+        @yield('content')
+    </div>
     @yield('footer')
     @yield('javascript')
 </body>
