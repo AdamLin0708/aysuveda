@@ -1348,6 +1348,7 @@ a:focus {
     height: auto
 }
 
+.img-re
 
 .img-rounded {
     border-radius: 6px
@@ -4279,7 +4280,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     overflow-y: auto
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .navbar {
         border-radius: 4px
     }
@@ -4366,7 +4367,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     display: block
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
         margin-right: 0;
         margin-left: 0
