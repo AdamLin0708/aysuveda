@@ -42,6 +42,11 @@
   border-radius: 0 6px 6px 6px;
 }
 
+.dropdown-submenu>.dropdown-menu>li {
+  font-size: smaller;
+  -webkit-text-size-adjust: none;
+}
+
 .dropdown-submenu:hover>.dropdown-menu {
   display: block;
 }

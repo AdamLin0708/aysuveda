@@ -31,18 +31,18 @@
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">BrainGym®丹尼遜健腦操</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" style="white-space: normal;">BrainGym®丹尼遜健腦操26式體驗工作坊</a></li>
-                                    <li><a href="#" style="white-space: normal">BrainGym®101丹尼遜基礎健腦操國際證書課程</a></li>
-                                    <li><a href="#" style="white-space: normal">BrainGym®101丹尼遜基礎健腦操國際證書親子班</a></li>
-                                    <li><a href="#" style="white-space: normal">對稱塗鴉遊戲：全腦視覺之窗</a></li>
-                                    <li><a href="#">優勢的因素工作坊</a></li>
+                                    <li><a href="{{route('class.workshop26')}}" style="white-space: normal;">BrainGym®丹尼遜健腦操26式體驗工作坊</a></li>
+                                    <li><a href="{{route('class.basicBrainGymCertification')}}" style="white-space: normal">BrainGym®101丹尼遜基礎健腦操國際證書課程</a></li>
+                                    <li><a href="{{route('class.basicBrainGymFamilyCertification')}}" style="white-space: normal">BrainGym®101丹尼遜基礎健腦操國際證書親子班</a></li>
+                                    <li><a href="{{route('class.graffiti')}}" style="white-space: normal">對稱塗鴉遊戲：全腦視覺之窗</a></li>
+                                    <li><a href="{{route('class.advantageFactor')}}">優勢的因素工作坊</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown-submenu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Touch For Health~觸康健®</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#" style="white-space: normal">國際肌動學院證書研習課程</a></li>
-                                    <li><a href="#" style="white-space: normal">目標設定與中國五行隱喻</a></li>
+                                    <li><a href="{{route('class.touchForHealthCertification')}}" style="white-space: normal">國際肌動學院證書研習課程~Touch For Health~觸康健®</a></li>
+                                    <li><a href="{{route('class.fiveElements')}}" style="white-space: normal">觸康健®目標設定與中國五行隱喻</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">CSF個人形象</a></li>
@@ -93,8 +93,16 @@
                     <li><a href="#">調和行旅</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">商店</a>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li><a href="#">能量寶石</a></li>
+                        <ul class="dropdown-menu dropdown-menu-right multi-level">
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">能量寶石</a>
+                                <ul class="dropdown-menu" style="top: 20%; right: 95%; left: auto">
+                                    <li><a href="#" style="white-space: normal">菊石</a></li>
+                                    <li><a href="#" style="white-space: normal">鱷魚骨幹</a></li>
+                                    <li><a href="#" style="white-space: normal">脈輪水晶</a></li>
+                                    <li><a href="#" style="white-space: normal">天賦靈擺</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#">色彩香氣</a></li>
                             <li><a href="#">肌動學</a></li>
                         </ul>
