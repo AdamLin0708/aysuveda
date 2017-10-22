@@ -55,9 +55,31 @@
 
 /**** home ****/
 /* 輪播牆 */
-.home-carousel {
-  border: 1px solid black;
-  height: 400px; }
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.carousel, .carousel-inner, .carousel-inner .item {
+  height: 100%; }
 
 /**** about ****/
 .img-responsive-center {
