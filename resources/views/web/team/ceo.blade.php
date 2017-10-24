@@ -5,7 +5,7 @@
     </div>
     <div class="container-fluid row">
         <div class="col-md-5 col-md-push-1 text-center">
-            <img src="/img/ceo_Aileen.jpg">
+            <img class="img-circle" src="/img/ceo_Aileen.jpg">
         </div>
         <div class="col-md-6 text-center">
             <img src="/img/ceo_Aileen_experience.jpg">

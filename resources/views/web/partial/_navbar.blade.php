@@ -1,5 +1,5 @@
 <div class="container-fluid modify-nav">
-    <nav class="navbar navbar-fixed-top navbar-default">
+    <nav class="navbar navbar-fixed-top" style="background-color: rgba(255,255,255,0.9); border-bottom: 3px solid black">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">

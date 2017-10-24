@@ -1,53 +1,22 @@
-<footer class="footer">
-    <div class="container-fluid page-container-responsive">
-        <div class="row">
-            <div class="footer__links col-md-4">
-                <label style="font-size: x-large" >服務內容</label>
-                <ul class="list-group">
-                    <li style="list-style: none">
-                        <a class="macho-4 footer-link" href="#">- 預約居家照護</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__links col-md-5">
-                <label style="font-size: x-large">聯繫我們</label>
-                <ul class="list-group" style="font-size: medium">
-                    {{--<li style="list-style: none">--}}
-                    {{--<p class="macho-4">(02)2363-5100</p>--}}
-                    {{--</li>--}}
-                    <li style="list-style: none">
-                        <p class="macho-4">TEL: (02)2363-5100 /  0800-800-069</p>
-                    </li>
-                    <li style="list-style: none">
-                        <p class="macho-4">FAX: (02)2363-1738</p>
-                    </li>
-                    <li style="list-style: none">
-                        <p class="macho-4">info@ucarer.com.tw</p>
-                    </li>
-                    <li style="list-style: none">
-                        <p class="macho-4">106台北市大安區羅斯福路三段149號3樓之1</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__links col-md-3">
-                <label style="font-size: x-large" >相關連結</label>
-                <ul class="list-group">
-                    <li style="list-style: none">
-                        <a class="macho-4 footer-link " href="https://www.facebook.com/ucarertw/?ref=bookmarks" target="_blank">- 優照護粉絲專頁</優照護粉絲專頁></a>
-                    <li style="list-style: none">
-                        <a class="macho-4 footer-link " href="https://www.youtube.com/channel/UCD4sKZLscdzUOs7XhTKsbFA" target="_blank">- 優照護Youtube</a>
-                    </li>
-                </ul>
-                <label style="font-size: x-large">服務地區</label>
-                <p>
-                </p>
-            </div>
+<footer>
+    <div class="container">
+        <div class="col-md-6 col-sm-6 col-xs-6" >
+            <h3>其他連結</h3>
+
         </div>
-        <div class="row">
-            <div class="footer__links col-md-12 text-center" style="margin-top:30px;">
-                <span href="#"><strong>Copyright © 2017&nbsp;優護平台股份有限公司</strong></span><br>
-            </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6" >
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Phone : 123 - 456 - 789</li>
+                <li>E-mail : info@comapyn.com</li>
+                <li>Fax : 123 - 456 - 789</li>
+            </ul>
+            <ul class="sm">
+                <li><a href="#" ><img src="https://www.facebook.com/images/fb_icon_325x325.png" class="img-responsive"></a></li>
+                <li><a href="#" ><img src="https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300" class="img-responsive" ></a></li>
+                <li><a href="#" ><img src="http://playbookathlete.com/wp-content/uploads/2016/10/twitter-logo-4.png" class="img-responsive"  ></a></li>
+            </ul>
         </div>
     </div>
-
 </footer>

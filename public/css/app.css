@@ -6909,6 +6909,22 @@ button.close {
 .carousel-fade .carousel-control {
   z-index: 2; }
 
+/* 首頁內容 */
+.h1-responsive {
+  font-size: 20px; }
+
+@media (min-width: 500px) {
+  .h1-responsive {
+    font-size: 24px; } }
+
+@media (min-width: 768px) {
+  .h1-responsive {
+    font-size: 28px; } }
+
+@media (min-width: 992px) {
+  .h1-responsive {
+    font-size: 32px; } }
+
 .carousel, .carousel-inner, .carousel-inner .item {
   height: 100%; }
 
@@ -6920,32 +6936,43 @@ button.close {
   margin: 0 auto; }
 
 /**** footer ****/
-.page-container-responsive {
-  width: auto;
-  margin-left: auto;
-  margin-right: auto; }
+footer {
+  background: url("/img/footer_background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  width: 100%;
+  bottom: 0;
+  font-weight: lighter;
+  color: orangered; }
 
-@media screen and (min-width: 1100px) {
-  .page-container-responsive {
-    width: 1045px; } }
+footer h3 {
+  font-weight: lighter; }
 
-.footer__links {
-  margin-top: 15px; }
+footer ul {
+  padding-left: 5px;
+  list-style: none; }
 
-.footer__links a.footer-link {
-  text-decoration: none;
-  font-weight: bold;
-  color: #727171;
-  font-size: 16px; }
+footer p {
+  text-align: justify;
+  font-size: 12px; }
 
-.footer__links a.footer-link:hover {
-  color: #232323; }
+footer iframe {
+  width: 100%;
+  position: relative;
+  height: 170px; }
 
-.footer__links a.footer-link span.macho {
-  text-decoration: none; }
+.sm {
+  list-style: none;
+  overflow: auto; }
 
-a.footer-mail-link {
-  text-decoration: none; }
+.sm li {
+  display: inline;
+  padding: 5px;
+  float: left; }
+
+.sm li a img {
+  width: 32px; }
 
 /*# sourceMappingURL=web.css.map */
 
